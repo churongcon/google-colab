@@ -404,7 +404,7 @@ def updateCheck(self, Version):
           return message
 
     check = UpdateChecker()
-    check.URL = "https://raw.githubusercontent.com/churongcon/Google-Colab-CloudTorrent/master/update.xml"
+    check.URL = "https://raw.githubusercontent.com/churongcon/google-colab/master/update.xml"
     currentVersion = check.getVersion("currentVersion")
     message = check.getMessage("message")
 
